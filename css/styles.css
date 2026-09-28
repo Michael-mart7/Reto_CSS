@@ -1,0 +1,8 @@
+input {
+    border: 1px solid #cccccc; /*Para el borde delgado y gridel recadro*/
+}
+
+input:focus {
+    border: 2px solid #007BFF; /*Para el foco, tono de azul vibrante*/
+    outline: none; /*Para quitar un posible contorno que algunos navegadores muestran al seleccionar un campo*/
+}
